@@ -1,0 +1,25 @@
+@import 'variable';
+
+@mixin mobile-ui {
+    @media screen and (max-width: 425px) {
+        @content;
+    }
+}
+
+@mixin tablet-ui {
+    @media screen and (min-width: 426px) and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin desktop-ui {
+    @media screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin monitor-ui {
+    @media screen and (min-width: 1024px) {
+        @content;
+    }
+}

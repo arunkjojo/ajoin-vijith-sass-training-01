@@ -1,0 +1,196 @@
+@media screen and (max-width: 425px) {
+  .logo {
+    flex-direction: column;
+    top: 10%;
+    position: relative;
+  }
+  .access-form {
+    width: 100%;
+  }
+  .access-form .access {
+    margin-top: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .nft-img {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .access-form {
+    width: 50%;
+  }
+  .access-form .logo {
+    flex-direction: row;
+  }
+  .access-form .access {
+    margin: 20%;
+  }
+  .nft-img {
+    visibility: visible;
+    margin: 0%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .access-form {
+    width: 50%;
+  }
+  .access-form .logo {
+    flex-direction: row;
+  }
+  .access-form .access {
+    margin: 20%;
+  }
+  .nft-img {
+    visibility: visible;
+    margin: 0%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .access-form {
+    width: 50%;
+  }
+  .access-form .logo {
+    flex-direction: row;
+  }
+  .access-form .access {
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .nft-img {
+    visibility: visible;
+    margin: 0%;
+  }
+}
+main {
+  max-width: 100vw;
+  max-height: 100vh;
+  font-family: "Inter";
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+}
+main .access-form .logo {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+}
+main .access-form .logo .logo-txt {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+main .access-form .access .heading {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #344054;
+}
+main .access-form .access .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+main .access-form .access .sign-in-form label {
+  flex: 1;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+  margin-top: 20px;
+}
+main .access-form .access .sign-in-form .sign-in-input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #D0D5DD;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+main .access-form .access .sign-in-form .p-close {
+  float: right;
+  margin-top: -25px;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+main .access-form .access .sign-in-form .p-viewer, main .access-form .access .sign-in-form .p-viewer2 {
+  float: right;
+  margin-top: -25px;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+main .access-form .access .sign-in-form .remember-forgot {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main .access-form .access .sign-in-form .sign-in-default-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  flex: none;
+  flex-grow: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background: #5429FF;
+  color: #FFFFFF;
+  order: 0;
+}
+main .access-form .access .sign-in-form .sign-in-google-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+  flex: none;
+  flex-grow: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border: 1px solid #D0D5DD;
+  color: #344054;
+  order: 1;
+  gap: 5px;
+}
+main .access-form .access .sign-in-form .sign-up {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #344054;
+}
+main .nft-img {
+  flex: 1;
+  background-color: #CBCCE8;
+  border-radius: 40px;
+}
+main .nft-img .nft-3d-img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=main.css.map */

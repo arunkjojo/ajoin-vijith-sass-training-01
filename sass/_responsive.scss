@@ -1,0 +1,87 @@
+@include mobile-ui {
+    .logo {
+        flex-direction: column;
+        top: 10%;
+        position: relative;
+    }
+    .access-form {
+
+        width: calc(100%);
+
+        .access {
+            margin-top: 25%;
+            margin-left: 10px;
+            margin-right: 10px;
+            
+        }
+    }
+    .nft-img {
+        visibility: hidden;
+    }
+}
+
+@include tablet-ui {
+
+    .access-form {
+
+        .logo {
+            flex-direction: row;
+        }
+
+        width: calc(50%);
+
+        .access {
+
+            margin: 20%;
+        }
+    }
+    .nft-img {
+        visibility: visible;
+        margin: 0%;
+    }
+}
+
+@include desktop-ui {
+
+    .access-form {
+
+        .logo {
+            flex-direction: row;
+        }
+
+        width: calc(50%);
+
+        .access {
+
+            margin: 20%;
+        }
+    }
+    .nft-img {
+        visibility: visible;
+        margin: 0%;
+    }
+}
+
+
+@include monitor-ui {
+
+    .access-form {
+
+        .logo {
+            flex-direction: row;
+        }
+
+        width: calc(50%);
+
+        .access {
+
+            margin-top: 15%;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+    }
+    .nft-img {
+        visibility: visible;
+        margin: 0%;
+    }
+}

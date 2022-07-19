@@ -1,0 +1,155 @@
+@import 'config';
+@import 'responsive';
+
+
+@mixin sign-in-button {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    // padding: 12px 154px;
+    padding: 10px;
+    margin-top: 20px;
+    position: relative;
+    width: calc(100%);
+    border-radius: 8px;
+    flex: none;
+    flex-grow: 0;
+    font-weight: $text2FontWeight;
+    font-size: $text1FontSize;
+    line-height: $text2LineHeight;
+}
+
+main {
+
+    max-width: 100vw;
+    max-height: 100vh;
+
+    font-family: $fontFamily;
+    font-style: $fontStyle;
+
+    display: flex;
+    justify-content: space-between;
+    .access-form {
+        .logo {
+            display: flex;
+            align-items: center;
+            padding: 0px;
+            gap: 12px;
+            .logo-txt {
+                text-align: center;
+                font-weight: $text2FontWeight;
+                font-size: $text1FontSize;
+                line-height: 19px;
+                letter-spacing: 0.01em;
+
+                color: $blackColor;
+            }
+        }
+
+        .access {
+
+            .heading {
+                font-weight: $headlineFontWeight;
+                font-size: $headlineFontSize;
+                line-height: $headlineLineHeight;
+                letter-spacing: 0.01em;
+                text-transform: capitalize;
+    
+                color: $secondaryColor;
+            }
+    
+            .description {
+                font-weight: $text1FontWeight;
+                font-size: $text1FontSize;
+                line-height: $text1LineHeight;
+    
+                color: $secondaryAccentColor;
+            }
+    
+            .sign-in-form {
+
+                label {
+                    flex:1;
+                    font-weight: $text2FontWeight;
+                    font-size: $text2FontSize;
+                    line-height: $text2LineHeight;
+    
+                    color: $secondaryColor;
+                    margin-top: 20px;
+                }
+
+                .sign-in-input {
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: 30px;
+                    border: 1px solid $primaryAccentColor;
+                    border-radius: 8px;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+                }
+                .p-close {
+                    float: right;
+                    margin-top: -25px;
+                    margin-right: 10px;
+                    position: relative;
+                    z-index: 1;
+                    cursor:pointer;
+                }
+                .p-viewer, .p-viewer2{
+                    float: right;
+                    margin-top: -25px;
+                    margin-right: 10px;
+                    position: relative;
+                    z-index: 1;
+                    cursor:pointer;
+                }
+
+                .remember-forgot {
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                
+                .sign-in-default-btn {
+                    @include sign-in-button;
+                    background: $primaryColor;
+                    color: $whiteColor;
+                    order: 0;
+                }
+
+                .sign-in-google-btn {
+                    @include sign-in-button;
+                    border: 1px solid $primaryAccentColor;
+                    color: $secondaryColor;
+                    order: 1;
+                    gap: 5px;
+                }
+
+                .sign-up{
+                    font-weight: $text1FontWeight;
+                    font-size: $text2FontSize;
+                    line-height: $text1LineHeight;
+                    text-align: center;
+                    color: $secondaryColor;
+                }
+            }
+        }
+        
+    }
+    .nft-img {
+        flex: 1;
+        background-color: $bgColor;
+        border-radius: 40px;
+
+        .nft-3d-img {
+            width: calc(100%);
+            height: calc(100%);
+        }
+    
+    }
+}
