@@ -189,6 +189,7 @@ main .nft-img {
   flex: 1;
   background-color: #CBCCE8;
   border-radius: 40px;
+  margin: 20px 20px 25px 10px;
 }
 main .nft-img .nft-3d-img {
   width: 100%;
