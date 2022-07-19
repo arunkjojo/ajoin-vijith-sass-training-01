@@ -70,7 +70,6 @@ main {
             }
     
             .sign-in-form {
-
                 label {
                     flex:1;
                     font-weight: $text2FontWeight;
@@ -78,7 +77,11 @@ main {
                     line-height: $text2LineHeight;
     
                     color: $secondaryColor;
-                    margin-top: 20px;
+                }
+
+                .input-div {
+
+                    margin-top: 15px;
                 }
 
                 .sign-in-input {
@@ -109,7 +112,7 @@ main {
                 }
 
                 .remember-forgot {
-                    margin-top: 20px;
+                    margin-top: 15px;
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
@@ -145,7 +148,6 @@ main {
         flex: 1;
         background-color: $bgColor;
         border-radius: 40px;
-        margin: 20px 20px 25px 10px;
         .nft-3d-img {
             width: calc(100%);
             height: calc(100%);

@@ -1,22 +1,25 @@
 @media screen and (max-width: 425px) {
   .logo {
     flex-direction: column;
-    top: 10%;
+    top: 3%;
     position: relative;
   }
   .access-form {
     width: 100%;
   }
   .access-form .access {
-    margin-top: 25%;
+    margin-top: 15%;
     margin-left: 10px;
     margin-right: 10px;
+  }
+  .access-form .access .sign-in-form {
+    margin-top: 50px;
   }
   .nft-img {
     visibility: hidden;
   }
 }
-@media screen and (min-width: 426px) and (max-width: 767px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
   .access-form {
     width: 50%;
   }
@@ -24,14 +27,20 @@
     flex-direction: row;
   }
   .access-form .access {
-    margin: 20%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .access-form .access .sign-in-form {
+    margin-top: 30px;
   }
   .nft-img {
     visibility: visible;
     margin: 0%;
+    margin: 20px 20px 25px 0px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .access-form {
     width: 50%;
   }
@@ -39,14 +48,20 @@
     flex-direction: row;
   }
   .access-form .access {
-    margin: 20%;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .access-form .access .sign-in-form {
+    margin-top: 50px;
   }
   .nft-img {
     visibility: visible;
     margin: 0%;
+    margin: 20px 20px 25px 0px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
   .access-form {
     width: 50%;
   }
@@ -54,13 +69,17 @@
     flex-direction: row;
   }
   .access-form .access {
-    margin-top: 15%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-top: 10%;
+    margin-left: 27%;
+    margin-right: 27%;
+  }
+  .access-form .access .sign-in-form {
+    margin-top: 50px;
   }
   .nft-img {
     visibility: visible;
     margin: 0%;
+    margin: 20px 20px 25px 0px;
   }
 }
 main {
@@ -105,7 +124,9 @@ main .access-form .access .sign-in-form label {
   font-size: 14px;
   line-height: 20px;
   color: #344054;
-  margin-top: 20px;
+}
+main .access-form .access .sign-in-form .input-div {
+  margin-top: 15px;
 }
 main .access-form .access .sign-in-form .sign-in-input {
   box-sizing: border-box;
@@ -134,7 +155,7 @@ main .access-form .access .sign-in-form .p-viewer, main .access-form .access .si
   cursor: pointer;
 }
 main .access-form .access .sign-in-form .remember-forgot {
-  margin-top: 20px;
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -189,7 +210,6 @@ main .nft-img {
   flex: 1;
   background-color: #CBCCE8;
   border-radius: 40px;
-  margin: 20px 20px 25px 10px;
 }
 main .nft-img .nft-3d-img {
   width: 100%;

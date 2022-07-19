@@ -1,7 +1,7 @@
 @include mobile-ui {
     .logo {
         flex-direction: column;
-        top: 10%;
+        top: 3%;
         position: relative;
     }
     .access-form {
@@ -9,9 +9,14 @@
         width: calc(100%);
 
         .access {
-            margin-top: 25%;
+            margin-top: 15%;
             margin-left: 10px;
             margin-right: 10px;
+
+            .sign-in-form {
+
+                margin-top: 50px;
+            }
             
         }
     }
@@ -31,13 +36,18 @@
         width: calc(50%);
 
         .access {
-
-            margin: 20%;
+            margin-top: 10%;
+            margin-left: 10%;
+            margin-right: 10%;
+            .sign-in-form {
+                margin-top: 30px;
+            }
         }
     }
     .nft-img {
         visibility: visible;
         margin: 0%;
+        margin: 20px 20px 25px 0px;
     }
 }
 
@@ -52,13 +62,19 @@
         width: calc(50%);
 
         .access {
+            margin-top: 10%;
+            margin-left: 20%;
+            margin-right: 20%;
 
-            margin: 20%;
+            .sign-in-form {
+                margin-top: 50px;
+            }
         }
     }
     .nft-img {
         visibility: visible;
         margin: 0%;
+        margin: 20px 20px 25px 0px;
     }
 }
 
@@ -74,14 +90,18 @@
         width: calc(50%);
 
         .access {
+            margin-top: 10%;
+            margin-left: 27%;
+            margin-right: 27%;
 
-            margin-top: 15%;
-            margin-left: 25%;
-            margin-right: 25%;
+            .sign-in-form {
+                margin-top: 50px;
+            }
         }
     }
     .nft-img {
         visibility: visible;
         margin: 0%;
+        margin: 20px 20px 25px 0px;
     }
 }
